@@ -1,0 +1,15 @@
+# Created by .gitignore support plugin (hsz.mobi)
+.idea
+cron.php
+cron.sh
+downloader
+errors/
+includes
+index.php.sample
+install.php
+LICENSE*
+php.ini.sample
+RELEASE_NOTES.txt
+robots.txt
+shell
+var
