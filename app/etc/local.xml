@@ -40,10 +40,11 @@
             </db>
             <default_setup>
                 <connection>
-                    <host><![CDATA[localhost]]></host>
+                    <host><![CDATA[127.0.0.1]]></host>
                     <username><![CDATA[entprs_root]]></username>
                     <password><![CDATA[entprs_passwd]]></password>
                     <dbname><![CDATA[mage_ausger]]></dbname>
+                    <port>8889</port>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
                     <type><![CDATA[pdo_mysql]]></type>
