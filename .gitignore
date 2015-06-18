@@ -35,7 +35,6 @@ app/design/adminhtml/default/default/layout/aoe_scheduler
 app/design/adminhtml/default/default/layout/theme540
 app/design/adminhtml/default/default/template/aoe_scheduler
 app/design/adminhtml/default/default/template/enterprise
-app/design/adminhtml/default/default/template/index
 app/design/frontend/default/default/layout/catalog.xml
 app/design/frontend/default/default/layout/catalogsearch.xml
 app/design/frontend/default/default/layout/search.xml
@@ -49,9 +48,15 @@ app/design/frontend/default/default/template/search
 app/design/frontend/default/theme540/layout
 app/design/frontend/default/theme540/locale
 app/design/frontend/default/theme540/template
+.htaccess
+lib/Varien/Db/Adapter/Pdo/Mysql.php
+index.php
+app/code/community/Aoe/TemplateHints
+app/etc/modules/Aoe_TemplateHints.xml
+skin/frontend/base/default/aoe_templatehints
 app/etc/modules/AddThis_SharingTool.xml
 app/etc/modules/Aoe_Scheduler.xml
-app/etc/modules/AusGer_Page.xml
+app/etc/modules/AusGer_Page.xml.bak
 app/etc/modules/EcommerceTeam_CloudZoom.xml
 app/etc/modules/JitPub_Catalog.xml
 app/etc/modules/JitPub_CatalogInventory.xml
@@ -74,3 +79,9 @@ skin/frontend/default/theme540/favicon.ico
 skin/frontend/default/theme540/font
 skin/frontend/default/theme540/images
 skin/frontend/default/theme540/js
+app/code/local/Juicy
+app/design/adminhtml/default/default/template/juicy/geoip/system/config/form/field/array.phtml
+app/etc/modules/AusGer_Page.xml
+app/etc/modules/Juicy_Geoip.xml
+lib/Juicy/Geoip/Data
+lib/Juicy/Geoip/geoip.inc
