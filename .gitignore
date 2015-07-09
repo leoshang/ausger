@@ -79,3 +79,12 @@ media/bannerslider
 skin/adminhtml/default/default/css/magestore
 skin/adminhtml/default/default/css/tinybox
 skin/frontend/base/default/css/magestore
+app/code/community/ES
+app/design/frontend/base/default/layout/newssubscribers.xml
+app/design/frontend/base/default/template/newssubscribers
+app/etc/modules/ES_Newssubscribers.xml
+js/newssubscribers
+skin/frontend/base/default/css/style-newssubscribers.css
+skin/frontend/base/default/images/newssubscribers
+app/code/community/AddThis
+app/code/community/Thirty4
